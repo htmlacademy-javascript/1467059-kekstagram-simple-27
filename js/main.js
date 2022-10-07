@@ -5,13 +5,7 @@ const getRandomNumber = (a, b) => {
   return Math.floor(result);
 };
 
-const checkStringLength = (string, maxLength) => {
-  if (string.length <= maxLength) {
-    return true;
-  }
-
-  return false;
-};
+const checkStringLength = (string, maxLength) => string.length <= maxLength;
 
 getRandomNumber(2,10);
 
